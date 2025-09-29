@@ -1,2 +1,27 @@
-###
+### Setup table
 GET http://localhost:4001/setup-table
+
+### Get Users
+GET http://localhost:4001/user
+
+### Create User
+POST http://localhost:4001/user
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "testpassword"
+}
+
+### Edit User
+PATCH http://localhost:4001/user/4
+Content-Type: application/json
+
+{
+  "email": "test_edit@gmail.com",
+  "password": "testpassword_updated"
+}
+
+### Delete User
+DELETE http://localhost:4001/user/4
+Content-Type: application/json
