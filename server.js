@@ -1,5 +1,6 @@
 import express from "express";
 import pool from "./config/db.js";
+import userRoute from "./routes/userRoute.js";
 
 const app = express();
 const port = 4001;
@@ -20,6 +21,8 @@ app.get("/setup-table", async (req, res) => {
     });
   }
 });
+
+app.use("/user", userRoute);
 
 app.listen(port, () => {
   console.log(`server running on http://localhost:${port}`);
