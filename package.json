@@ -1,0 +1,25 @@
+{
+  "name": "node-pg",
+  "version": "1.0.0",
+  "description": "Node + Express + PostgreSQL CRUD boilerplate for hands-on practice.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahm0udnasr/node-pg-project.git"
+  },
+  "keywords": [
+    "crud",
+    "express",
+    "node",
+    "postgresql"
+  ],
+  "author": "mahm0udnasr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahm0udnasr/node-pg-project/issues"
+  },
+  "homepage": "https://github.com/mahm0udnasr/node-pg-project#readme"
+}
